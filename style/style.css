@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Rubik&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1110px;
+    background-image: url("../image/Dot_Design.svg");
+    background-repeat: no-repeat;
+}
+
+.title-h1 {
+    font-size: 52px;
+}
+
+.sale {
+    font-family: 'Rubik', sans-serif;
+    background-color: #083C6E;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    padding: 11px 20px;
+    position: absolute;
+    top: 13px;
+    left: 13px;
+}
+
+.nosale {
+    visibility: hidden;
+}
+
+.shop-item {
+    height: 357px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.shop-item01 {
+    background-image: url("../image/Rectangle_12.png");
+}
+
+.shop-item02 {
+    background-image: url("../image/Rectangle_13.png");
+}
+
+.shop-item03 {
+    background-image: url("../image/Rectangle_14.jpg");
+}
+
+.text-info {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: .8rem;
+    width: 100%;
+    background-color: #083C6E;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.text-info .col-4 {
+    text-align: right;
+}
+
+.text-info h3 {
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.text-info p {
+    font-size: 18px;
+    color: #ffffff;
+    border: 1.5px solid #ffffff;
+    border-radius: 5%;
+    padding: 5px 16px;
+    margin-bottom: 0;
+}
